@@ -1,6 +1,8 @@
 # smallgrowingseeds
 Cellular automata rules which produce the largest possible pattern from 1 to 4-cell seeds.
 
+Pattern file naming convention: (state count)(neighborhood (VN/M usually))(cell count)c.rle
+
 Records:
 * 3-state VN:
   * 1-3 cells: 15903 (Growth1 by Rocknlol)
