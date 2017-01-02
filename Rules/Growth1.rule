@@ -1,0 +1,30 @@
+@RULE Growth1
+By Rocknlol
+@TABLE
+
+n_states:3
+neighborhood:vonNeumann
+symmetries:rotate4reflect
+
+var a={1,2}
+var b=a
+var c=a
+var d=a
+var e={0,1}
+
+0,0,0,e,1,2
+0,0,0,a,2,a
+0,0,1,0,a,a
+0,0,2,0,2,1
+0,0,1,a,1,1
+0,0,1,2,b,1
+0,a,b,c,d,1
+1,0,0,0,a,0
+1,0,1,2,2,2
+1,0,a,1,a,0
+1,1,2,1,2,2
+1,1,2,2,2,0
+2,0,0,0,e,e
+2,0,1,2,1,1
+2,0,2,1,2,1
+2,1,1,1,2,1
